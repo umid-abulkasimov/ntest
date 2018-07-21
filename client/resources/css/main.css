@@ -1,0 +1,69 @@
+/* Можно было через папку sass но при изменении оно требует собирание, пока так используем */
+
+.chat-message {}
+
+.chat-message .x-view-item-focused {
+    outline: 0 !important;
+}
+
+.chat-msg-body {
+    padding: 8px;
+}
+
+.chat-msg-item {
+    margin: 0 0 15px 0;
+}
+
+.chat-msg-user {
+    font-weight: bold;
+    margin: 0 0 7px 5px;
+    font-size: 11px;
+    color: #4f4f4f /*#15498B*/;
+}
+
+.chat-msg-message {
+    background: #efefef;
+    padding: 8px;
+    position: relative;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.chat-msg-date {
+    float: right;
+    font-size: 10px;
+    color: #828282;
+    margin: 0 0 10px 10px;
+}
+
+.chat-msg-date img {
+    margin: 0 0 0 8px;
+}
+
+.chat-msg-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 9px 8px 9px;
+    border-color: transparent transparent #efefef transparent;
+    position: absolute;
+    -webkit-transform:rotate(360deg);
+}
+
+.chat-msg-default .chat-msg-arrow {
+    top: -7px;
+    left: 20px;
+}
+
+.chat-msg-owner {
+    margin: 0 0 15px 15px;
+}
+
+.chat-msg-owner .chat-msg-message {
+    background: #E3EBF4;
+}
+
+.chat-msg-owner .chat-msg-arrow {
+    top: -7px;
+    left: 20px;
+    border-color: transparent transparent #E3EBF4 transparent;
+}

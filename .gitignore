@@ -1,0 +1,7 @@
+node_modules
+package-lock.json
+client/.sencha
+client/build
+client/ext
+client/bootstrap.*
+.idea

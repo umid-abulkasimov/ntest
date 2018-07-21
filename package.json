@@ -1,0 +1,18 @@
+{
+  "name": "ntest",
+  "version": "0.0.0",
+  "description": "test work nodejs and extjs",
+  "main": "index.js",
+  "author": "u.abulkasimov",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "express": "^4.16.3"
+  },
+  "dependencies": {
+    "mysql": "^2.16.0",
+    "socket.io": "^2.1.1"
+  }
+}
